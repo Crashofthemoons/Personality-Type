@@ -11,7 +11,12 @@ h1 {
     font-style: bold;
     font-size: 4em;
     text-align: center;
+    margin: 10px auto;
     text-shadow: 4px 4px darkolivegreen;
+    border: 1px solid lightgray;
+    width: 25%;
+    background: lightgray;
+    box-shadow: 4px 4px darkolivegreen;
 }
 
 h3 {
@@ -58,7 +63,7 @@ li {
     }
     
     .flex-item {
-        border: 1px solid antiquewhite;
+        border: 1px solid lightgray;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
@@ -84,7 +89,7 @@ li {
     }
     
     .flex-item {
-        border: 2px solid antiquewhite;
+        border: 2px solid lightgray;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
@@ -103,7 +108,6 @@ li {
 
 
     .flex-box {
-        /* border: 1px solid antiquewhite; */
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -113,7 +117,7 @@ li {
     }
     
     .flex-container {
-        border: 1px solid antiquewhite;
+        border: 1px solid lightgray;
         display: flex;
         width: 33%;
         flex-direction: row;
