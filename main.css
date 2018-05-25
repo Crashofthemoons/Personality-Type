@@ -47,8 +47,12 @@ li {
 }
 
 /* Mobile styles */
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 660px) {
  
+    h1 {
+        width: 50%;
+    }
+
     .flex-box {
         width: 100%;
         display:flex;
@@ -72,7 +76,11 @@ li {
   }
 
 /*Tablet styles */
-  @media only screen and (min-width: 761px) and (max-width: 960px) {
+  @media only screen and (min-width: 661px) and (max-width: 960px) {
+
+    h1 {
+        width: 40%;
+    }
 
     .flex-box {
         width: 100%;
