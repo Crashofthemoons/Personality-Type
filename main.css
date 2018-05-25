@@ -95,7 +95,7 @@ li {
   /* Desktop Styles */
   @media only screen and (min-width: 961px) {
     body {
-      font-size: 1.4em;
+      font-size: 1.3em;
       height: 100%;
       width: 100%;
     }
