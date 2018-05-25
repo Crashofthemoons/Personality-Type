@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Abel', sans-serif;
-    /* font-size: 1em; */
     color: white;
     background-color: #B1C7A9;
 }
@@ -98,26 +97,26 @@ li {
     body {
       font-size: 1.4em;
       height: 100%;
+      width: 100%;
     }
 
 
 
     .flex-box {
+        /* border: 1px solid antiquewhite; */
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         align-items: stretch;
-        height: 650px;
+        justify-content: center;
     }
     
     .flex-container {
-        border-right: 1px solid antiquewhite;
-        border-left: 1px solid antiquewhite;
+        border: 1px solid antiquewhite;
         display: flex;
         width: 33%;
         flex-direction: row;
-        justify-content: justify-content;
         flex-wrap: wrap;
         
     }
